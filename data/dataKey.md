@@ -1,8 +1,8 @@
-#Data File Key
+# Data File Key
 
 The data files for the text all either came from 1. Scraping a website or 2. from the text itself. 
 
-##booktext
+## booktext
 
 All data files in this directory came from `David-Foster-Wallace-Infinite-Jest-v2.0.pdf` a file that came from the internet somewhere.  Footnotes are the number of the footnote repeated twice.  Like for footnote 64, it will appear as 6464. I have not done anything more with them at this point. 
 
@@ -10,7 +10,7 @@ All data files in this directory came from `David-Foster-Wallace-Infinite-Jest-v
 2. `David-Foster-Wallace-Infinite-Jest-v2.0.txt` - is the .txt version of the original file, cleaned up a bit to remove crazy symbol artifacts from .pdf to .txt conversion.
 3. `David-Foster-Wallace-Infinite-Jest-v2.0.chptags.txt` - This is basically the simple text version with manually entered chapter tags.
 
-##Character
+## Character
 
 1. `characters.full.txt` - full list with all terms used for the characters
 2. `characters.mod.txt` - modification to the terms used most often and main characters
@@ -21,14 +21,14 @@ All data files in this directory came from `David-Foster-Wallace-Infinite-Jest-v
 1. `chapters.txt` - Chapter headers
 2. `outline.csv` - scraped, needs cleaning
 
-##pyOutputs
+## pyOutputs
 
 These are files that came from a python program.
 
 1. `chapterPosition.txt` - figure this out and re-do
 2. `characterPostion.txt` - came from char.parser.py
 
-##sample
+## sample
 
 These are smaller sample files texts for use when writing programs. 
 
